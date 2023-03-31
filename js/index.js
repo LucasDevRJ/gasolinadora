@@ -12,6 +12,10 @@ function pegaValores() {
 
 function calculaConsumo(distancia, litros, resposta) {
 	var consumoGasolina = distancia / litros;
+	var consumoGasolinaFormatada = consumoGasolina.toFixed(2);
+	exibeConsumo(consumoGasolinaFormatada, resposta);
+}
 
-	resposta.textContent = "O consumo da gasolina foi de " + consumoGasolina + " litros.";
+function exibeConsumo(consumoGasolinaFormatada, resposta) {
+	resposta.textContent = "O consumo da gasolina foi de " + consumoGasolinaFormatada + " litros.";
 }
