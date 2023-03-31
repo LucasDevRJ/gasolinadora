@@ -4,17 +4,20 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Gasolinadora</title>
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	Digite a distância percorrida: 
-	<input type="text" id="distancia">
+	<div class="calculadora">
+		Digite a distância percorrida: 
+		<input type="text" id="distancia">
 
-	Digite a quantidade de litros gastos:
-	<input type="text" id="litros">
+		Digite a quantidade de litros gastos:
+		<input type="text" id="litros">
 
-	<button onclick="pegaValores()">Calcular Consumo</button>
+		<button onclick="pegaValores()">Calcular Consumo</button>
 
-	<h3 id="respostaConsumoGasolina"></h3>
+		<h3 id="respostaConsumoGasolina"></h3>
+	</div>
 
 	<script src="js/index.js"></script>
 </body>
