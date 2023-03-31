@@ -20,10 +20,11 @@ body {
 .calculadora {
 	opacity: 0.7;
 	height: 300px;
-	width: 30%;
+	width: 25%;
 	border-width: 2px;
 	border-style: solid;
-	border-color: black;
+	border-color: #FFFFFF;
+	border-radius: 5px;
 }
 
 .botao {
