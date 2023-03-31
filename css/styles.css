@@ -26,6 +26,11 @@ body {
 	border-radius: 5px;
 }
 
+.texto {
+	font-size: 18px;
+	font-weight: bold;
+}
+
 .entrada {
 	padding: 8px 15px;
 	background: transparent;
