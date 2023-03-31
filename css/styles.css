@@ -5,12 +5,20 @@ body {
 	background-size: cover;
 }
 
-.calculadora {
+.caixa, .calculadora {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
+}
+
+.calculadora {
+	height: 300px;
+	width: 30%;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
 }
 
 .botao {
