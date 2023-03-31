@@ -5,6 +5,10 @@ body {
 	background-size: cover;
 }
 
+.caixa {
+	height: 600px;
+}
+
 .caixa, .calculadora {
 	display: flex;
 	flex-direction: column;
@@ -14,6 +18,7 @@ body {
 }
 
 .calculadora {
+	opacity: 0.7;
 	height: 300px;
 	width: 30%;
 	border-width: 2px;
