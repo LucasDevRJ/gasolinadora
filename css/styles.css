@@ -40,6 +40,11 @@ body {
 	border-radius: 5px;
 }
 
+.caixa-botao {
+	display: flex;
+	gap: 20px;
+}
+
 .botao {
 	margin-top: 20px;
 	padding: 10px 15px;
