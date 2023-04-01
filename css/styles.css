@@ -19,7 +19,6 @@ body {
 
 .calculadora {
 	height: 300px;
-	width: 25%;
 	border-width: 3px;
 	border-style: solid;
 	border-color: #FFFFFF;
@@ -55,8 +54,20 @@ body {
 	font-weight: bold;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 200px) and (max-width: 600px){
 	.calculadora {
 		width: 63%;
+	}
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px){
+	.calculadora {
+		width: 45%;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.calculadora {
+		width: 35%;
 	}
 }
