@@ -3,6 +3,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	font-family: courier, monospace;
 }
 
 .caixa {
