@@ -57,7 +57,7 @@ body {
 
 @media screen and (min-width: 200px) and (max-width: 600px){
 	.calculadora {
-		width: 63%;
+		width: 90%;
 		padding: 10px;
 	}
 }
