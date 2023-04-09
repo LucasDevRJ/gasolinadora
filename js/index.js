@@ -7,6 +7,10 @@ function pegaValores() {
 	var distancia = campoValorDistancia.value;
 	var litros = campoValorLitros.value;
 
+	verificaValores(distancia, litros, resposta);
+}
+
+function verificaValores(distancia, litros, resposta) {
 	if (isNaN(distancia) || isNaN(litros)) {
 		alert("Digite somente números nos campos!!");
 	} else {
