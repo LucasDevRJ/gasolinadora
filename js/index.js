@@ -7,7 +7,15 @@ function pegaValores() {
 	var distancia = campoValorDistancia.value;
 	var litros = campoValorLitros.value;
 
-	calculaConsumo(distancia, litros, resposta);
+	if (isNaN(distancia) || isNaN(litros)) {
+		alert("Digite somente números nos campos!!");
+	} else {
+		if (distancia <= 0 || litros <= 0) {
+			alert("Digite números válidos!!");
+		} else {
+			calculaConsumo(distancia, litros, resposta);
+		}
+	}
 }
 
 function calculaConsumo(distancia, litros, resposta) {
@@ -17,5 +25,5 @@ function calculaConsumo(distancia, litros, resposta) {
 }
 
 function exibeConsumo(consumoGasolinaFormatada, resposta) {
-	resposta.textContent = "O consumo da gasolina foi de " + consumoGasolinaFormatada + " litros.";
+	resposta.textContent = "O consumo da gasolina foi de " + consumoGasolinaFormatada + " litros/km.";
 }
